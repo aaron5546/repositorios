@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,user-scalable=yes, initial-scale 1.0 maximum-scale 3.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"> 
+    <link rel="stylesheet" href="estilo1.css"> 
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="logo de la compañia">
+            <h2 class="nombreempresa">DENT APP</h2>
+        </div>
+        <nav>
+            <a href="login1.html" class="nav'link">iniciar session</a>
+            <a href="curricukum.html" class="nav'link">sobre nosotros</a>
+            <a href="descargas2.html" class="nav'link">Descargas</a>
+            <a href="buscarid.html" class="nav'link">Buscar</a>
+            <a href="borrar.html" class="nav'link">borrar</a>
+        </nav>
+    </header>
+
+    <div class="formulario">
+        <h1>Registrarse como Dentista</h1>
+        <form action="registrodentista.php" method="POST">
+            <div class="contenedor">
+                <div class="input-contenedor">
+                    <i class="fas fa-user"></i> 
+                    <input type="text" placeholder="Nombre" name="Nombre"> 
+                </div>
+
+                <div class="input-contenedor">
+                    <i class="fas fa-user"></i> 
+                    <input type="text" placeholder="Apellido Paterno" name="Apellido_app"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-user"></i> 
+                    <input type="text" placeholder="Apellido Materno" name="Apellido_apm"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-user"></i> 
+                    <input type="text" placeholder="Telefono" name="telefono"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i> 
+                    <input type="text" placeholder="Correo Electronico" name="correo"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i> 
+                    <input type="text" placeholder="experiencia" name="experiencia"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i> 
+                    <input type="text" placeholder="titulos o certificaciones" name="titulos_certificaciones"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-envelope icon"></i> 
+                    <input type="text" placeholder="referencia profesional" name="referencia_profecional"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-user"></i> 
+                    <input type="text" placeholder="Usuario" name="crea_usuario"> 
+                </div>
+    
+                <div class="input-contenedor">
+                    <i class="fas fa-key icon"></i> 
+                    <input type="password" placeholder="Contrase&ntilde;a" name="password">
+                    </div>
+
+                <button type="submit">Registrarse</button> 
+                <p>Al registrarte, aceptas nuestras condiciones de uso y política de privacidad.</p>
+                <p>¿Ya tienes cuenta? <a class="link" href="login1.html">Iniciar sesión</a></p>
+            </div>
+        </form>
+    </div>
+
+    <hr>
+    
+    <footer class="footer">
+        <div class="container">
+            
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>compañia</h4>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Nuestros servicios</a></li>
+                        <li><a href="#">politica de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>ayuda</h4>
+                    <ul>
+                        <li><a href="#">preguntas</a></li>
+                        <li><a href="#">estatus de citas</a></li>
+                        <li><a href="#">pagos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/home.php?ref=wizard"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+                    </div>
+                </div>
+                
+
+            
+
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

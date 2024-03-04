@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif; /* Establece la fuente predeterminada como sans-serif */
+    margin: 0; /* Elimina los márgenes predeterminados */
+}
+header{
+    display: flex; /* Convierte el elemento header en un contenedor flexible */
+    justify-content: space-between; /* Distribuye uniformemente los elementos del header */
+    min-height: 70px; /* Establece una altura mínima para el header */
+    background-color: skyblue; /* Establece el color de fondo del header */
+    align-items: center; /* Alinea verticalmente los elementos del header */
+    padding: 10px; /* Agrega un relleno interno al header */
+}
+a{
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: black; /* Establece el color del texto de los enlaces */
+}
+.logo{
+    display: flex; /* Convierte el elemento con la clase "logo" en un contenedor flexible */
+    align-items: center; /* Alinea verticalmente los elementos dentro del contenedor "logo" */
+}
+.logo img{
+    height: 50px; /* Establece la altura de las imágenes dentro del contenedor "logo" */
+    margin-right: 10px; /* Agrega un margen a la derecha de las imágenes dentro del contenedor "logo" */
+}
+nav a{
+    font-weight: 600; /* Establece el peso de la fuente de los enlaces en la barra de navegación */
+    padding-right: 10px; /* Agrega un relleno a la derecha de los enlaces en la barra de navegación */
+}
+nav a:hover{
+    color: white; /* Cambia el color del texto de los enlaces en la barra de navegación al pasar el cursor sobre ellos */
+}
+@media(max-width:700px){
+    header{
+        flex-direction: column; /* Cambia la dirección de los elementos del header a una disposición vertical */
+    }
+    nav{
+        padding: 10px 0px; /* Agrega relleno a la barra de navegación cuando el ancho de la pantalla es menor o igual a 700px */
+    }
+}
